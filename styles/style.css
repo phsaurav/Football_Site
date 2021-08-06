@@ -400,6 +400,7 @@ button {
 		width: 100%;
 		display: flex;
 		justify-content: center;
+		padding: 0;
 	}
 	.gird-cards,
 	.trending-cards {
@@ -485,10 +486,11 @@ button {
 		font-size: 40px;
 	}
 	.log-in-btn {
-		margin: 15px 20px;
+		padding: 15px 20px;
 	}
 	/* *Banner */
 	.banner {
+		display: none;
 		width: 100%;
 	}
 	.banner img {
@@ -520,6 +522,7 @@ button {
 		width: 100%;
 		display: flex;
 		justify-content: center;
+		padding: 0;
 	}
 	.gird-cards,
 	.trending-cards {
