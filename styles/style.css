@@ -87,6 +87,7 @@ nav {
 	height: 438px;
 	margin-bottom: 86px;
 	margin-top: 37px;
+	transform: scale(0.8);
 }
 .banner-title h1 {
 	font-family: 'Poppins', sans-serif;
@@ -109,6 +110,17 @@ nav {
 	height: 44px;
 }
 
+/* *Banner Animation */
+.banner:hover .banner-img img {
+	transform: rotate(90deg) scale(1.1);
+}
+button:hover {
+	 color: rgba(255, 255, 255, 1);
+  	box-shadow: 0 5px 15px rgba(211, 47, 96, 0.884);
+}
+.banner-img img {
+	transition: transform 0.2s ease-out;
+}
 /* *Grid Style */
 .gird-cards,
 .trending-cards {
@@ -276,6 +288,13 @@ button {
 	color: black;
 	font-family: Poppins;
 	font-size: 16px;
+	border: none;
+}
+
+.contact-form button:hover{
+	color: white;
+	background-color:#181818;
+	border: none;
 }
 .contact-form hr {
 	margin-bottom: 10px;
@@ -312,4 +331,33 @@ button {
 	line-height: 24px;
 	color: #000000;
 	margin-bottom: 63px;
+}
+
+/* *Media Queries */
+/* *Mobile Device */
+@media only screen and (max-width: 688px){
+	/* *Nav-Bar */
+	.nav-menu{
+		display: none;
+	}
+	/* *Banner */
+	.banner{
+
+	}
+	/* *Player Cards */
+	.container{
+		display: none;
+	}
+	/* *Highilight Section */
+	.highlight{
+		display: none;
+	}
+	/* *Trending Highlight */
+	.trending-container{
+		display: none;
+	}
+	/* *Contact-us */
+	.contact{
+		display:none;
+	}
 }
