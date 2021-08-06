@@ -20,7 +20,6 @@
 			<nav>
 				<div class="nav-container">
 					<div class="nav-items">
-						
 						<span class="nav-menu">
 							<a href="#">Home</a>
 							<a href="#">Clubs</a>
@@ -32,7 +31,10 @@
 							<i class="fas fa-bars"></i>
 						</span>
 						<span class="log-in-btn">
-							<button class="log-in">
+							<button
+								class="log-in"
+								onclick="location.href='https://www.soccerladuma.co.za/user/sign_in'"
+							>
 								<i class="fas fa-sign-in-alt"></i> Log in
 							</button>
 						</span>
@@ -47,7 +49,10 @@
 							<span class="color-text">Conmebol</span> <br />Copa
 							America <br />2021
 						</h1>
-						<button class="banner-live-btn">
+						<button
+							class="banner-live-btn"
+							onclick="location.href='https://www.beinsports.com/en/copa-america/'"
+						>
 							Watch Live <i class="fas fa-arrow-right"></i>
 						</button>
 					</div>
@@ -275,7 +280,10 @@
 								consequat duis enim velit mollit. Exercitation
 								veniam consequat sunt nostrud amet.
 							</p>
-							<button class="banner-live-btn">
+							<button
+								class="banner-live-btn"
+								onclick="location.href='https://www.youtube.com/results?search_query=copa+america+highlights'"
+							>
 								Watch Live <i class="fas fa-arrow-right"></i>
 							</button>
 						</div>
@@ -331,35 +339,56 @@
 				<div class="container">
 					<form action="" class="contact-form">
 						<h1>CONTACT US</h1>
-						<hr>
+						<hr />
 						<input
 							type="email"
 							class="email"
 							placeholder="Email"
 							required
 						/>
-						<textarea class="message" name="subject" placeholder="Message Us.." style="height:50px"></textarea>
-						<button class="send" type="submit">Contact Us</button>
+						<textarea
+							class="message"
+							name="subject"
+							placeholder="Message Us.."
+							style="height: 50px"
+							required
+						></textarea>
+						<button
+							class="send"
+							type="submit"
+							onclick="location.href='https://copaamerica.com/en/'"
+						>
+							Contact Us
+						</button>
 					</form>
 				</div>
 			</section>
 		</main>
 		<footer>
 			<!-- *Footer Logo -->
-				<div class="footer-logo">
-					<img src="images/Logo.png" alt="">
-				</div>
+			<div class="footer-logo">
+				<img src="images/Logo.png" alt="" />
+			</div>
 			<!-- *Footer SM Icons -->
 			<div class="social-media">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-youtube"></i>
-				<i class="fab fa-twitter"></i>
+				<a href="https://www.facebook.com/CopaAmerica/"
+					><i class="fab fa-facebook"></i
+				></a>
+				<a href="https://www.instagram.com/copaamerica/?hl=en"
+					><i class="fab fa-instagram"></i
+				></a>
+				<a href="https://www.youtube.com/copaamerica"
+					><i class="fab fa-youtube"></i
+				></a>
+				<a
+					href="https://twitter.com/CopaAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+					><i class="fab fa-twitter"></i
+				></a>
 			</div>
 			<!-- *Copyright Info -->
 			<div class="copyright">
 				<p>Copyright © 2022 Football</p>
-			</div>	
+			</div>
 		</footer>
 	</body>
 </html>
